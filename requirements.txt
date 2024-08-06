@@ -4,6 +4,7 @@ msrest==0.7.1
 openai==0.28.0
 xlsxwriter==3.1.4
 markdown-pdf
+PyPDF2
 langchain
 langchain-community
 python-docx==0.8.11

@@ -7,4 +7,5 @@ markdown-pdf
 PyPDF2
 langchain
 langchain-community
+langchain_experimental
 python-docx==0.8.11

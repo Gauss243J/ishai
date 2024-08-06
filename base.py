@@ -148,7 +148,7 @@ def markdown_to_word_via_text(markdown_content):
     return buffer
 
 def main():
-    st.title("Générateur de Business Plan")
+    st.title("Ish-AI : Générateur de Business Plan")
 
     uploaded_file = st.file_uploader("Téléchargez votre fichier PDF", type="pdf")
     user_text_input = st.text_area("Entrez des informations supplémentaires ou un texte alternatif:", height=200)

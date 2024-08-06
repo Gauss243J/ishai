@@ -1,11 +1,11 @@
 import openai
 import streamlit as st
-from langchain.llms import OpenAI
-from langchain.chat_models import ChatOpenAI
-from langchain.document_loaders import PyPDFLoader
-from langchain.embeddings.openai import OpenAIEmbeddings
+from langchain_community.llms import OpenAI
+from langchain_community.chat_models import ChatOpenAI
+from langchain_community.document_loaders import PyPDFLoader
+from langchain_community.embeddings import OpenAIEmbeddings
+from langchain_community.vectorstores import FAISS
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.vectorstores import FAISS
 from langchain.chains import ConversationalRetrievalChain
 from langchain.memory import ConversationBufferMemory
 from markdown_pdf import MarkdownPdf, Section

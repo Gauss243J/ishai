@@ -12,4 +12,3 @@ langchain
 langchain-community
 langchain_experimental
 python-docx==0.8.11
-fitz
